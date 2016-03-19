@@ -29,6 +29,6 @@ angular.module('pokedexApp', [])
 }])
 .directive('pokemonDetails', function(){
   return {
-    templateUrl : '../directivesHTML/pokemon-details.html'
+    templateUrl : 'directivesHTML/pokemon-details.html'
   }
 }).$inject = ['$scope'];
