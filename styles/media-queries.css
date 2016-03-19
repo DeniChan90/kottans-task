@@ -1,0 +1,95 @@
+@media (max-width: 220px) {
+  .checkboxFilter{
+    width : 100%;
+  }
+}
+
+@media (min-width: 425px){
+  .checkboxFilter{
+    width : 25%;
+  }
+
+  li{
+    width: 50%;
+  }
+}
+
+@media (min-width: 500px){
+  #pokemon-details{
+    width: 50%;
+    float: right;
+  }
+  #pokemons{
+    width:50%;
+  }
+  li{
+    width: 100%;
+}
+
+@media (min-width: 650px){
+  #pokemon-details{
+    width: 40%;
+  }
+  #pokemons{
+    width:60%;
+  }
+  li{
+    width: 50%;
+  }
+  .pokemon{
+    height: 250px;
+  }
+}
+
+@media (min-width: 769px){
+  .checkboxFilter{
+    width : 20%;
+  }
+
+  #pokemon-details{
+    width: 30%;
+  }
+  #pokemons{
+    width: 70%;
+  }
+  li{
+    width: 33%;
+}
+
+@media (min-width: 1200px){
+
+  #pokemon-details{
+    width: 25%;
+  }
+  #pokemons{
+    width: 75%;
+  }
+  li{
+    width: 25%;
+  }
+  .pokemon{
+    height: 300px;
+  }
+}
+@media (min-width: 1700px){
+  #pokemon-details{
+    width: 20%;
+  }
+
+  #pokemons{
+    width: 80%;
+  }
+
+  li{
+    width: 16%;
+  }
+}
+
+@media (min-width: 3000px){
+  .checkboxFilter{
+    width : 10%;
+  }
+  .pokemon{
+    height: 600px;
+  }
+}

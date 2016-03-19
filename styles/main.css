@@ -1,0 +1,66 @@
+
+body{
+  padding: 0 15px;
+}
+
+.checkboxFilter, li{
+  display: inline-block;
+}
+
+.checkboxFilter{
+  width: 50%;
+}
+
+h1, table, li, #pokemon-details, #pokemons  {
+  text-align: center;
+}
+
+#pokemon-details{
+  width: 100%;
+  margin: 10px 0 10px 0;
+  padding: 0 10px 15px 10px;
+  display: none;
+  border : 1px solid black;
+}
+
+#pokemonPic{
+  width: 80%;
+}
+
+h3{
+  margin-top: 0;
+}
+p {
+  margin : 0;
+}
+
+ul{
+  list-style: none;
+  padding : 0;
+}
+
+li{
+  width: 100%;
+  padding: 10px;
+}
+
+.pokemon{
+  border : 1px solid black;
+  padding: 20px 0;
+}
+
+li img {
+  width: 60%;
+  height: 60%;
+}
+
+a, a:hover, a:visited, a:active{
+  text-decoration: none !important;
+  color: black !important;
+}
+
+span {
+  font-size: 10pt !important;
+  padding: 5px 15px !important;
+  margin-right: 5px;
+}

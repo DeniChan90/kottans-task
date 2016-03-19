@@ -1,0 +1,44 @@
+<div id='pokemon-details'>
+    <img src="" id='pokemonPic'/>
+    <h3>
+      <strong>{{pokemonInfo.name}} #{{("000" + pokemonInfo.pkdx_id).slice(-3)}}</strong>
+    </h3>
+    <table border="1" class="col-xs-12">
+      <tr>
+        <td>Type</td>
+        <td><p ng-repeat='type in pokemonInfo.types'>{{type.name}}</p></td>
+      </tr>
+      <tr>
+        <td>Attack</td>
+        <td>{{pokemonInfo.attack}}</td>
+      </tr>
+      <tr>
+        <td>Defense</td>
+        <td>{{pokemonInfo.defense}}</td>
+      </tr>
+      <tr>
+        <td>HP</td>
+        <td>{{pokemonInfo.hp}}</td>
+      </tr>
+      <tr>
+        <td>SP Atack</td>
+        <td>{{pokemonInfo.sp_atk}}</td>
+      </tr>
+      <tr>
+        <td>SP Deffense</td>
+        <td>{{pokemonInfo.sp_def}}</td>
+      </tr>
+      <tr>
+        <td>Speed</td>
+        <td>{{pokemonInfo.speed}}</td>
+      </tr>
+      <tr>
+        <td>Weight</td>
+        <td>{{pokemonInfo.weight}}</td>
+      </tr>
+      <tr>
+        <td>Total moves</td>
+        <td>{{pokemonInfo.moves.length}}</td>
+      </tr>
+    </table>
+</div>
